@@ -1,0 +1,1 @@
+var textInput = document.querySelector("#text-input");
