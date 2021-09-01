@@ -4,7 +4,8 @@ buttonTranslate.addEventListener("click", buttonClickHandler)
 
 var translateOutput = document.querySelector("#translate-output");
 
-var serverurl = "https://api.funtranslations.com/translate/mandalorian.json"
+var serverurl = "https://api.funtranslations.com/translate/minion.json"
+	
 
 function getTranslationURL(input){
     return serverurl+"?"+"text= "+input 
